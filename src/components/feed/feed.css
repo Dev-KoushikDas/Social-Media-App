@@ -1,0 +1,9 @@
+.feed{
+    flex:5.5;
+    /*background-image: linear-gradient(to bottom,#6a5492,#705b8cc4);*/
+    background-color:#513d75;
+}
+
+.feedWrapper{
+    padding: 20px;
+}

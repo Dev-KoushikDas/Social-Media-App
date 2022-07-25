@@ -1,0 +1,139 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color:#513d75;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 2.7;
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color:#fff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.topbarCenter {
+  flex: 4;
+}
+
+.topbarnav-icons{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.topbarnav-items{
+  color:#fff;
+  
+}
+
+.topbarnav-items:hover{
+  color: rgb(76, 0, 255);
+  
+}
+
+.topbarnav-items.active{
+  color: rgb(76, 0, 255);
+  border-bottom: 5px  #1877f2;
+  
+}
+
+.searchbar {
+  width: 55%;
+  height: 30px;
+  background-color: rgba(255, 249, 249, 0.116);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.searchIcon {
+  color: #ffff;
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput {
+  color: #fff;
+  background-color: rgba(255, 249, 249, 0.116);
+  border: none;
+  height: 100%;
+  width: 70%;
+}
+input::placeholder{
+  color: #fff;
+}
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 3.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: none;
+}
+
+.topbarIcons {
+  display: flex;
+  
+  
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  padding: 4.5px;
+  background-color: #fff;
+  border: 3px solid rgb(43, 186, 226);
+  border-radius: 70%;
+}
+
+.topbar_right_img{
+  color: black;
+  
+  
+}
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 3px solid rgb(43, 186, 226);
+}
