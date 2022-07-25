@@ -1,4 +1,4 @@
-#Socail Media App
+#Social Media App
 ![](social.png)
 
 # Getting Started with Create React App
